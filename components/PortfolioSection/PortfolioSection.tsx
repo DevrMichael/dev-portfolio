@@ -38,6 +38,12 @@ export default function PortfolioSection() {
                     title="Planloader"
                     description="Project management tool for construction industry"
                 />
+                <PortfolioItem
+                    img={horse}
+                    alt="horse"
+                    title="Planloader"
+                    description="Project management tool for construction industry"
+                />
             </div>
         </div>
     )
