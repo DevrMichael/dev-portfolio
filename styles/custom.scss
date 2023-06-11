@@ -1,0 +1,30 @@
+$primary: #00B8A9;
+$secondary: #FFDE7D;
+$dark: #000;
+$light: #FEF5ED;
+$success: #62D2A2;
+$warning: #FF9A00;
+$danger: #FF165D;
+
+
+@import '~bootstrap/scss/bootstrap.scss';
+// @import "node_modules/bootstrap/scss/functions";
+// @import "node_modules/bootstrap/scss/variables";
+// @import "node_modules/bootstrap/scss/mixins";
+
+//Button overrides
+.btn {
+    color: #FAF2F2;
+}
+
+.btn-link {
+    color: pink;
+
+    &:hover {
+        color: red;
+    }
+}
+
+.btn-outline-primary {
+    color: pink;
+}

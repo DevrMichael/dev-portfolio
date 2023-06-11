@@ -1,0 +1,14 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding-block: 50px;
+
+    .portfolioIntro {
+        width: 40%;
+    }
+
+    .portfolioItems {
+        display: flex;
+        gap: 20px;
+    }
+}

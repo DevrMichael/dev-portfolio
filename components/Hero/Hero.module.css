@@ -1,0 +1,25 @@
+.container {
+  background-color: #F5EFE6;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 170px;
+  max-width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+.container .buttons {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.container h5 {
+  font-weight: 300;
+}/*# sourceMappingURL=Hero.module.css.map */
