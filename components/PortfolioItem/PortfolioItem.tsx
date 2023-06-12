@@ -28,7 +28,7 @@ export default function PortfolioItem({
                 />
             </div>
             <div className={styles.itemDescription}>
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{description}</p>
                 <Button variant="outline-primary">See Full Project</Button>
             </div>

@@ -2,7 +2,7 @@
     width: 80%;
     margin: auto;
     padding-block: 50px;
-
+    
     .portfolioIntro {
         width: 40%;
         padding-block: 20px;
@@ -12,5 +12,16 @@
         display: flex;
         gap: 30px 0;
         flex-wrap: wrap;
+    }
+
+    .icon {
+        color: pink;
+        margin-bottom: -3px;
+        cursor: pointer;
+        height: 18px;
+
+        &:hover {
+            color: red;
+        }
     }
 }

@@ -15,6 +15,7 @@ $danger: #FF165D;
 //Button overrides
 .btn {
     color: #FAF2F2;
+    border-radius: 0;
 }
 
 .btn-link {
@@ -27,4 +28,5 @@ $danger: #FF165D;
 
 .btn-outline-primary {
     color: pink;
+    border-color: #CE6768;
 }
