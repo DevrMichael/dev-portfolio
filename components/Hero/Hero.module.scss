@@ -1,28 +1,4 @@
 .container {
-  background-color: #F5EFE6;
-  min-height: 700px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  .content {
+    background-color: pink;
     display: flex;
-    flex-direction: column;
-justify-content: center;
-    min-height: 170px;
-    max-width: 80%;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .buttons {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  h5 {
-    font-weight: 300;
-  }
 }

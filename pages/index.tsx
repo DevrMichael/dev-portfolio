@@ -1,5 +1,8 @@
 import Hero from '@/components/Hero/Hero'
-import PortfolioSection from '@/components/PortfolioSection/PortfolioSection'
+import NavBar from '@/components/NavBar/NavBar'
+import QuoteBanner from '@/components/QuoteBanner/QuoteBanner'
+import Testimonials from '@/components/Testimonials/Testimonials'
+import WebsitePackageDetails from '@/components/WebsitePackageDetails/WebsitePackageDetails'
 import Head from 'next/head'
 
 export default function Home() {
@@ -17,8 +20,11 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <NavBar />
             <Hero />
-            <PortfolioSection />
+            <QuoteBanner />
+            <WebsitePackageDetails />
+            <Testimonials />
         </>
     )
 }

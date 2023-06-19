@@ -1,0 +1,24 @@
+.container {
+    margin: auto;
+    padding-inline: 30px;
+    padding-block: 70px;
+    background-color: palegoldenrod;
+
+    .mainContainer {
+        display: flex;
+        justify-content: center;
+    }
+    .image {
+        background-color: orange;
+        height: 70vh;
+        width: 35vw;
+        }
+     .content {
+        background-color: purple;
+        height: 70vh;
+        width: 50vw;
+        padding-inline: 50px;
+        padding-block: 50px;
+        word-wrap: wrap;
+     }   
+}

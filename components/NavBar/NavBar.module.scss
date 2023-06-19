@@ -1,0 +1,27 @@
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+box-shadow: -2px 3px 31px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 3px 31px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 3px 31px -7px rgba(0, 0, 0, 0.75);
+
+    & > nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .logoContainer {
+        user-select: none;
+        padding-block: 40px;
+        padding-inline: 50px;
+        > p {
+            text-align: center;
+            color: gray !important;
+        }
+        }
+    
+}
