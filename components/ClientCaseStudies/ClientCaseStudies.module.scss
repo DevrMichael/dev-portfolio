@@ -1,0 +1,21 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding-block: 60px;
+
+    .contentHeader {
+        text-align: center;
+    }
+
+    .caseStudies {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .projectsBtn {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+}

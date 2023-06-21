@@ -1,0 +1,39 @@
+.container {
+    background-color: rebeccapurple;
+    padding-block: 70px;
+
+    .contentContainer {
+        width: 90%;
+        max-width: 1216px;
+        margin: auto;
+        background-color: #FFF;
+        padding-block: 40px;
+    }
+    
+    .content {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        padding-block: 40px;
+        padding-inline: 20px;
+
+        h3 {
+            padding-bottom: 10px;
+        }
+
+        span {
+            color: orange;
+            font-size: 1.3rem;
+        }
+    }
+
+    .formContainer {
+        display: flex;
+        justify-content: center;
+
+        form {
+            display: flex;
+            gap: 10px;
+            }
+    }
+}

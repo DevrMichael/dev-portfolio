@@ -1,0 +1,28 @@
+.container {
+
+    .footerContent {
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        padding-block: 50px;
+        text-align: center;
+    }
+
+    .footerSocials {
+        background-color: #ead0c3;
+        margin-bottom: 20px;
+
+        .socialTags {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            text-align: center;
+            padding: 20px;
+            > a {
+                padding: 10px;
+                background-color: #fff;
+                border-radius: 99px;
+            }
+        }        
+    }
+}

@@ -1,3 +1,25 @@
 .container {
-    
+    text-align: center;
+    background-color: seashell;
+    color: black !important;
+
+    .content {
+        width: 80%;
+        margin: auto;
+        padding-block: 50px;
+    }
+
+    .header {
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        padding-block: 1rem;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
 }

@@ -1,0 +1,25 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding-block: 30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+    .instaContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-block: 20px;
+
+        h3 {
+            font-style: italic;
+        }
+    }
+
+    .instaImages {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+}
