@@ -27,6 +27,10 @@ $danger: #ff165d;
         background-color: #ead0c3;
         color: #faf2f2;
     }
+
+    &:active {
+        background-color: #ead0c3 !important;
+    }
 }
 
 .btn-link {
