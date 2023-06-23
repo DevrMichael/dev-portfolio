@@ -1,11 +1,10 @@
-$primary: #00B8A9;
-$secondary: #FFDE7D;
+$primary: #00b8a9;
+$secondary: #ffde7d;
 $dark: #000;
-$light: #FEF5ED;
-$success: #62D2A2;
-$warning: #FF9A00;
-$danger: #FF165D;
-
+$light: #fef5ed;
+$success: #62d2a2;
+$warning: #ff9a00;
+$danger: #ff165d;
 
 @import '~bootstrap/scss/bootstrap.scss';
 // @import "node_modules/bootstrap/scss/functions";
@@ -14,8 +13,20 @@ $danger: #FF165D;
 
 //Button overrides
 .btn {
-    color: #FAF2F2;
+    background-color: #ce6768;
+    color: #faf2f2;
     border-radius: 0;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-inline: 30px;
+    padding-block: 15px;
+    font-weight: 500;
+
+    &:hover {
+        background-color: #ead0c3;
+        color: #faf2f2;
+    }
 }
 
 .btn-link {
@@ -28,5 +39,5 @@ $danger: #FF165D;
 
 .btn-outline-primary {
     color: pink;
-    border-color: #CE6768;
+    border-color: #ce6768;
 }

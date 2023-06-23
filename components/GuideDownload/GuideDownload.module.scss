@@ -2,6 +2,11 @@
     background-image: url('./assets/newsletter-background.png');
     padding-block: 70px;
 
+    & button {
+        background-color: #f8be94;
+        color: black;
+    }
+
     .contentContainer {
         width: 90%;
         max-width: 1216px;

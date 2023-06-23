@@ -5,6 +5,11 @@
     background-image: url('./assets/website-package-details.png');
     background-size: cover;
 
+    & button {
+        background-color: #f8be94;
+        color: black;
+    }
+
     .mainContainer {
         display: flex;
         justify-content: center;
