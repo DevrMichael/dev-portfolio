@@ -1,15 +1,15 @@
 .container {
-    background-color: rebeccapurple;
+    background-image: url('./assets/newsletter-background.png');
     padding-block: 70px;
 
     .contentContainer {
         width: 90%;
         max-width: 1216px;
         margin: auto;
-        background-color: #FFF;
+        background-color: #fff;
         padding-block: 40px;
     }
-    
+
     .content {
         width: 60%;
         margin: auto;
@@ -34,6 +34,6 @@
         form {
             display: flex;
             gap: 10px;
-            }
+        }
     }
 }

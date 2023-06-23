@@ -9,16 +9,18 @@
     -moz-box-shadow: -2px 3px 31px -7px rgba(0, 0, 0, 0.75);
 
     & > nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-        }
-        .logoContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .logoContainer {
         user-select: none;
         padding-block: 20px;
         padding-inline: 50px;
+
         > h1 {
+            color: #ce6768;
             font-weight: 700;
             font-size: 2.3rem;
             margin-bottom: 0;
@@ -28,6 +30,5 @@
             color: gray !important;
             margin-bottom: 0;
         }
-        }
-    
+    }
 }

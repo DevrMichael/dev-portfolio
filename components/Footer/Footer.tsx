@@ -1,5 +1,8 @@
 import React from 'react'
 import styles from './Footer.module.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 export default function Footer() {
     return (
@@ -16,9 +19,18 @@ export default function Footer() {
             </div>
             <div className={styles.footerSocials}>
                 <div className={styles.socialTags}>
-                    <a href="#">IN</a>
-                    <a href="#">FB</a>
-                    <a href="#">P</a>
+                    <a href="#">
+                        {' '}
+                        <FontAwesomeIcon icon={faInstagram} />
+                    </a>
+                    <a href="#">
+                        {' '}
+                        <FontAwesomeIcon icon={faLinkedinIn} />
+                    </a>
+                    <a href="#">
+                        {' '}
+                        <FontAwesomeIcon icon={faEnvelope} />
+                    </a>
                 </div>
             </div>
         </div>

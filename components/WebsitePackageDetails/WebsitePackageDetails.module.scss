@@ -2,7 +2,8 @@
     margin: auto;
     padding-inline: 30px;
     padding-block: 70px;
-    background-color: palegoldenrod;
+    background-image: url('./assets/website-package-details.png');
+    background-size: cover;
 
     .mainContainer {
         display: flex;
@@ -12,13 +13,13 @@
         background-color: orange;
         height: 70vh;
         width: 35vw;
-        }
-     .content {
-        background-color: purple;
+    }
+    .content {
+        background-color: #fff;
         height: 70vh;
         width: 50vw;
         padding-inline: 50px;
         padding-block: 50px;
         word-wrap: wrap;
-     }   
+    }
 }
