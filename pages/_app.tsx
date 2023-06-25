@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import '@/styles/custom.scss'
 import { useEffect } from 'react'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function App({ Component, pageProps }: AppProps) {
     useEffect(() => {
